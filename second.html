@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+     <link rel="shortcut icon" href="./img/fav.ico" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-500 h-full" >
+    <nav >
+<div class="flex justify-between px-4 pt-3">
+<h1 class="text-white font-semibold text-3xl">BLOG</h1>
+    <button onclick="homeBtn()" class="btn">home</button>
+</div>
+    </nav>
+    <main>
+        <div class=" mx-auto pb-10 flex flex-col justify-center items-center md:w-[97%] h-full  pt-7" >
+           <div class=" text-white">
+            <h1 class="font-bold text-3xl pb-4">Discuss the scope of var, let, and const?</h1>
+            <p>Answer-</p>
+            <p>Var: Variables declared by var are available throughout the function in which they're declared.</p>
+               <ol>
+                <p> Let: Variables declared by let are only available  inside the block where they're defined.</p>
+              <p> Const: It's also like the let variable where Variables declared by const are only available  inside the block where they're defined. </p>
+               </ol>
+           </div>
+           <div class=" text-white pt-2">
+            <h1 class="font-bold text-3xl pb-4">Tell us the use cases of null and undefined?</h1>
+            <p>Answer-</p>
+            <p>`undefined` represents the absence of a value due to variables not being initialized or object properties not being defined. </p>
+               <p> `null` is used to intentionally indicate the absence of a value or to clear a  object property.</p>
+              
+           </div>
+           <div class=" text-white pt-2">
+            <h1 class="font-bold text-3xl pb-4 ">What do you mean by REST API?</h1>
+            <p>Answer-</p>
+            <p>A REST API  is like a waiter at a restaurant who takes your order, delivers it to the kitchen, brings you the food, and clears your table.</p>
+            <p>Meaning that REST API  allows different software systems to talk to each other and share data. </p>
+           </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
